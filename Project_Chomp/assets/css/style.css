@@ -239,6 +239,10 @@ header p{
 
 @media screen and (min-width:901px){
 
+body{
+    margin: 0 5vh;
+}
+
     header{
         
         padding: 33px 0 0 0 ;
