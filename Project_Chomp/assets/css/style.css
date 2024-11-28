@@ -1,0 +1,397 @@
+:root{
+    --orange: #DF8480; 
+}
+
+@font-face {
+    font-family: "Rock";
+    src: url(../font/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Nun";
+    src: url(../font/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+html{
+    font-size: 10px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "nun";
+}
+
+header{
+    padding: 16px;
+    gap: 16px 0;
+    font-size: 1.2rem;
+    height: 625px;
+    background-image: url(../img/Frame\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1{
+    font-family: "Rock";
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    
+}
+
+header p{
+    display: flex;
+    justify-content: right;
+    text-align: end;
+    font-size: 1.6em;
+    height: 147px;
+    
+    
+    font-weight: 900;
+    color: var(--orange);
+
+}
+
+.works{
+    font-weight: 900;
+    color:white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+}
+
+.numb article{
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px 0;
+}
+
+.numb article h3{
+
+    font-size: 4.8rem;
+    color: var(--orange);
+
+}
+
+.numb article p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+
+    
+}
+
+.dog2{
+    background-image: url(../img/Rectangle\ 3.png);
+    background-size: cover;
+    height:142px;
+    width: 100%;
+
+}
+
+.food{
+    background-image: url(../img/Frame\ 7.png);
+    background-size: cover;
+    height: 250px;
+    
+}
+
+.chefs {
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 16px 16px 32px 16px;
+    text-align: center;
+
+    
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+  
+
+    
+}
+
+.end{
+    height: 395px;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    padding: 16px 16px 32px 16px;
+}
+
+.end h3{
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+    
+}
+
+
+
+.end .email,.end .sup{
+    text-decoration: none;
+    width: 382px;
+    height: 54px;
+    border-radius: 74px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    border-radius: 74px;
+    margin-bottom: 16px;
+}
+
+.end .email{
+    background-color: white;
+    color: #7B7B7B;
+}
+
+.end .sup{
+    background-color: var(--orange);
+    color: white;
+    margin-bottom: 48px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+    }
+
+.icons .img{
+    width: 42px;
+    height: 42px;
+}
+
+.end footer{
+    margin-top: 40px;
+    font-size: 1.6rem;
+    color: white;
+}
+
+@media screen and (min-width:601px){
+    .numb article{
+
+        flex-direction: row;
+        margin-left: 10vw;
+        justify-content: left;
+        gap: 16px 5px;
+    }
+
+    .numb article p{
+        text-align: left;
+
+    }
+
+    .pics{
+        display: flex;
+    }
+
+    .pics div{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 250px;
+        width: 100%;
+
+    }
+    .pics .dog2{
+        background-image: url(../img/698b9fd82bf07cbfd62feee914386e69.jpeg);
+        background-size: contain;
+        width: 50%;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+
+    .pics .food{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+        
+    }
+    .icons{
+        position: relative;
+        justify-content: left;
+    }
+}
+
+@media screen and (min-width:901px){
+
+    header{
+        
+        padding: 33px 0 0 0 ;
+        
+        font-size: 1.2rem;
+        height: 609px;
+
+        background-image: none;
+
+    }
+    
+    .headeraa{
+        display: flex;
+        
+    }
+
+    header h1{
+        font-family: "Rock";
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        
+    }
+    
+    .header1{
+        display: flex;
+        justify-content: right;
+        padding: 24px 24px ;
+        text-align: right;
+        width: 50%;
+        height: 504px;
+        
+        background-color: #DF8480;
+    }
+
+    header p{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 3.6rem;
+        height: 147px;
+        width: 187px;
+
+        
+        font-weight: 900;
+        color: white;
+        
+    
+    }
+
+    .dog1{
+        background-image: url(../img/Frame\ 2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        width: 50%;
+        height: 504px;
+    }
+
+    .works{
+        background-color: white;
+        color:var(--orange);
+        font-size: 48px;
+        margin: 48px 0 24px 0;
+    }
+
+.numb{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+    .numb article{
+        height: 135px;
+        display: flex inline;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+
+        width: 23vw;
+        min-height: 201px;
+        margin-bottom: 48px;
+        padding: 24px 24px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+        
+        }
+
+        .numb article p{
+            text-align: center;
+            
+        }
+
+        .pics{
+            margin: 20px 20px;
+        
+        }
+
+        .pics div,.pics section{
+            border-radius: 8px;
+            margin: 0 32px;
+        }
+
+
+        .pics .hidden{
+            display: flex;
+            visibility: visible;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.6rem;
+            padding: 16px;
+            background-color: #DF8480;
+            
+
+
+        }
+        .pics .hidden p{
+            text-align: center;
+            padding: 20px;
+            color: white;
+            
+        }
+
+        .chefs{
+            visibility: hidden;
+            display: none;
+        }
+
+
+        .pics .dog2{
+            background-image: url(../img/698b9fd82bf07cbfd62feee914386e69.jpeg);
+            background-size: contain;
+            width: 50%;
+            display: flex;
+            background-repeat: no-repeat;
+        }
+    
+        .pics .food{
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 50%;
+
+}
+}
+
+
+    
+
+
+
+
+
+
